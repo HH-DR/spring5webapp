@@ -15,8 +15,9 @@
 
 <tr th:each="author : ${authors}">
 <td th:text="${author.id}"></td>
-<td th:text="${author.firstname}"></td>
-<td th:text="${author.lastname}"></td>
+<td th:text="${author.firstName}"></td>	
+<td th:text="${author.lastName}"></td>
+<!-- spelling of author members like in POJO -->
 </tr>
 
 </table>
